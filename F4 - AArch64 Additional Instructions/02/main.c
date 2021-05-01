@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-extern int SOMA_V(int *baseAddr, int size);
 extern int maxWord(int *baseAddr, int size);
 extern long minDoubleW(long *baseAddr, long size);
 extern short maxHalf(short v, int DIM);
@@ -17,14 +16,6 @@ void displayIntArr(int arr[], int size) {
 }
 
 int main(void) {
-
-	/* 1
-	const int DIM = 5;
-	int v[] = {3, -1, 8, 0, -3};
-	int sum = SOMA_V(v, dim);
-	printf("Sum of the elements: %d\n", sum);
-	*/
-
 
 	/* 2.1
 	const int DIM = 5;
