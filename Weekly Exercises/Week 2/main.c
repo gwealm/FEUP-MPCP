@@ -1,29 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-extern int CheckABS( int numx, int size, int *baseAddr);
+extern unsigned int SelectedUpperCase(char *seq_B, char *seq_A);
 
-void displayIntArr(int arr[], int size) {
-	for (int i = 0; i < size; i++) {
-		printf("%d | ", arr[i]);
-	}
-	printf("\n");
-}
+int main(void){
+    char seq_A[] = "Esta frase deverá ter alguns dos seus carateres alterados para maiúscula!";
+    char seq_B[] = "afuily";      
 
-int main(void) {
+    unsigned int res = SelectedUpperCase(seq_B, seq_A);
+    printf("Foram modificados %d carateres de seq_A. A sequência A é agora:\n", res);
+    printf("%s\n", seq_A);
 
-    int x = 20;
+    // para o exemplo fornecido o output deve indicar que foram alterados 19 carateres.
+    // no final da execução a sequência seq_A deverá ser "EstA FrAse deverá ter ALgUns dos seUs cArAteres ALterAdos pArA mAIúscULA!"
 
-    int size = 8;
-
-    int ve[] = {7, -8, -23, 56, 20, -10, 0, 40};
-
-
-    int res = CheckABS(x, size, ve);
-
-    printf("Foram modificados %d elementos da sequencia ve[]", res);
-
-    displayIntArr(ve, size);
-
-	return EXIT_SUCCESS;
+    return EXIT_SUCCESS;
 }
