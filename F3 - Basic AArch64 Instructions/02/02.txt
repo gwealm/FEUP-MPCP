@@ -1,0 +1,4 @@
+#0C90h
+nunca há salto
+0101 - FFFF
+0101 - 7FFF
