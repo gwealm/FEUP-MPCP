@@ -1,0 +1,1 @@
+B, porque nao existe nenhuma sequência possível de push's e pop's que possibilite a existência da sequência 0 > 1.
