@@ -1,0 +1,3 @@
+a) Valor absoluto de X0
+
+b) Valor máximo entre X1, X2 e X3
