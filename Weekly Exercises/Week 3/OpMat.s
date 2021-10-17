@@ -21,7 +21,7 @@ Ascii:
 */
 
 
-OpMat:		MOV     W4, 0       // will act as a flag ( 0 if passed by 'O')
+OpMat:      MOV     W4, 0       // will act as a flag ( 0 if passed by 'O')
 
 
 loop:       MOV     W10, W0     // copy of ncols

@@ -18,7 +18,7 @@ cosseno:    MOV     W1, #6;
             FMUL    D0, D0, D0      // D0 = x^2
             SUB     W1, W1, #1
 
-loop:		CBZ     W1, end
+loop:       CBZ     W1, end
             LDR     D3, [X0], #8
             FDIV    D3, D2, D3      // D3 = 1 / k!, k c {8, 6, 4, 2, 1}
             FMSUB   D4, D4, D0, D3

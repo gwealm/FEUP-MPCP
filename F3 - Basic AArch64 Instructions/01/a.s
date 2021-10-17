@@ -4,5 +4,5 @@
 
 decmemby1:    LDR    X0, [X10]
               SUB    X0, X0, 1
-	          STR    X0, [X10]
+              STR    X0, [X10]
               RET

@@ -22,5 +22,5 @@ loop:               CBZ     X1, end
                     ADD     X3, X3, #1
                     B       loop
 
-end:				MOV     X0, X3
+end:                MOV     X0, X3
                     RET

@@ -9,7 +9,7 @@
 conta_ocorr:    MOV     X3, #0          // X3 - stores the result
                 LSR     X1, X1, #4
 
-loop:		    CBZ     X1, end
+loop:           CBZ     X1, end
                 LDR     Q0, [X0], #16
                 DUP     V1.16B, W2
                 CMEQ    V2.16B, V0.16B, V1.16B
