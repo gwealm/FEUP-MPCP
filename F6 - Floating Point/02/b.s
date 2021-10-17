@@ -7,7 +7,7 @@ PI:	.double 3.141592653
 .type b, "function"
 
 // D0 - radius
-b:		LDR		D1, PI
-		FMUL	D0, D0, D0
-		FMUL	D0, D1, D0
-		RET
+b:      LDR     D1, PI
+        FMUL    D0, D0, D0
+        FMUL    D0, D1, D0
+        RET

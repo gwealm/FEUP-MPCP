@@ -3,7 +3,7 @@
 .type a, "function"
 
 // W0 - number
-a:		CLZ		W1, W0
-		MOV		W2, #32
-		SUB		W0, W2, W1
-		RET
+a:      CLZ     W1, W0
+        MOV     W2, #32
+        SUB     W0, W2, W1
+        RET
